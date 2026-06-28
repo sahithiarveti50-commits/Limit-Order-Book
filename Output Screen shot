@@ -1,0 +1,102 @@
+PS C:\Users\Sahithi Arveti\OneDrive\Desktop\Programming\Order> g++ main.cpp
+PS C:\Users\Sahithi Arveti\OneDrive\Desktop\Programming\Order> ./a.exe     
+Loading sample orders into the book...
+Order added successfully. Order ID: 1
+Order added successfully. Order ID: 2
+Order added successfully. Order ID: 3
+Order added successfully. Order ID: 4
+Sample data loaded. You can now add, cancel, view, or export orders.
+
+========== LIMIT ORDER BOOK ==========
+1. Add buy order
+2. Add sell order
+3. Cancel order
+4. Show order book
+5. Show trades
+6. Show market summary
+7. Export order book to CSV
+8. Export trades to CSV
+0. Exit
+Select a menu option by entering a number from 0 to 8: 1
+You selected: Add buy order
+Enter order price: 100
+Enter order quantity: 15
+Order added successfully. Order ID: 5
+
+========== LIMIT ORDER BOOK ==========
+1. Add buy order
+2. Add sell order
+3. Cancel order
+4. Show order book
+5. Show trades
+6. Show market summary
+7. Export order book to CSV
+8. Export trades to CSV
+0. Exit
+Select a menu option by entering a number from 0 to 8: 2
+You selected: Add sell order
+Enter order price: 100
+Enter order quantity: 10
+Order added successfully. Order ID: 6
+Trade executed: 10 shares at price 100.00
+
+========== LIMIT ORDER BOOK ==========
+1. Add buy order
+2. Add sell order
+3. Cancel order
+4. Show order book
+5. Show trades
+6. Show market summary
+7. Export order book to CSV
+8. Export trades to CSV
+0. Exit
+Select a menu option by entering a number from 0 to 8: 1
+You selected: Add buy order
+Enter order price: 99
+Enter order quantity: 6
+Order added successfully. Order ID: 7
+
+========== LIMIT ORDER BOOK ==========
+1. Add buy order
+2. Add sell order
+3. Cancel order
+4. Show order book
+5. Show trades
+6. Show market summary
+7. Export order book to CSV
+8. Export trades to CSV
+0. Exit
+Select a menu option by entering a number from 0 to 8: 2
+You selected: Add sell order
+Enter order price: 15
+Enter order quantity: 1
+Order added successfully. Order ID: 8
+Trade executed: 1 shares at price 15.00
+
+========== LIMIT ORDER BOOK ==========
+1. Add buy order
+2. Add sell order
+3. Cancel order
+4. Show order book
+5. Show trades
+6. Show market summary
+7. Export order book to CSV
+8. Export trades to CSV
+0. Exit
+Select a menu option by entering a number from 0 to 8: 3
+You selected: Cancel order
+Enter the order ID you want to cancel, for example 2: 8
+Order not found or already completed.
+
+========== LIMIT ORDER BOOK ==========
+1. Add buy order
+2. Add sell order
+3. Cancel order
+4. Show order book
+5. Show trades
+6. Show market summary
+7. Export order book to CSV
+8. Export trades to CSV
+0. Exit
+Select a menu option by entering a number from 0 to 8: 0
+Exiting project. Thank you!
