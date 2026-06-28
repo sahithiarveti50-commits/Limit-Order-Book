@@ -333,7 +333,7 @@ int main() {
         }else if (choice == 3) {
             int orderId;
             cout << "You selected: Cancel order\n";
-            cout << "Enter the order ID you want to cancel, for example 2: ";
+            cout << "Enter the order ID you want to cancel: ";
             cin >> orderId;
             book.cancelOrder(orderId);
         } else if (choice == 4) {
